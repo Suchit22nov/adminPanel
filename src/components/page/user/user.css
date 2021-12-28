@@ -1,0 +1,154 @@
+.user{
+    flex:4;
+    padding:20px;
+}
+.userTitleContainer{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+.userAddButton{
+    border-radius: 5px;
+    background-color: rgb(5, 105, 151);
+    color: rgb(233, 231, 243);
+    padding: 5px;
+    cursor: pointer;
+    width: 80px;
+    border: none;
+
+}
+
+.usercontainer{
+    display: flex;
+
+}
+.userleft{
+    flex: 1;
+    margin-right: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.userright{
+    flex: 2;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  display: flex;
+   flex-direction: row;
+    border-radius: 10px;
+}
+.userimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+ 
+
+}
+.userdetailsleft{
+    display: flex;
+
+    
+    
+}
+.detailsofuser{
+    margin-left: 20px;
+}
+.userfont{
+    font-size: 20px;
+}
+.userfont1{
+    font-size: 12px;
+    font-weight: 50;
+    color: rgb(70, 66, 70);
+}
+.details1{
+    color: rgb(159, 161, 161);
+    margin: 20px;
+}
+.useravatar{
+    display: flex;
+    margin-bottom: 10px;
+    
+
+}
+.avatar{
+    margin-right: 20px;
+    align-items: center;
+    size: 20px;
+    color:rgba(0, 0, 0, 0.973);
+    font-size: 20px !important;
+}
+.usercontent{
+    
+    align-items: center;
+    color:rgba(10, 12, 12, 0.541);
+}
+.inputdetails{
+ display: flex;
+ flex-direction: column;
+ margin-left: 20px;
+ margin-bottom: 10px;
+
+}
+.rightleft{
+    flex:1;
+}
+.rightright{
+    flex:1;display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.edit{
+    margin: 20px;
+    font-size: 25px;
+}
+.details{
+    margin-bottom: 10px;
+    color: rgb(70, 66, 70);
+}
+.userinput{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.userUpdateRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateUpload{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.userUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.userUpdateIcon{
+    cursor: pointer;
+}
+
+.userUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    width: 130px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
